@@ -12,7 +12,6 @@ void getinput()
             cout<<"Enter the length and breadth respectively-"<<endl;
             cin>>x>>y;
          }
-
          void display()
          { int a;
          l=x;
@@ -21,11 +20,9 @@ void getinput()
          cout<<"Area of the rectangle is: "<< a<< endl;
          }
 };
-int main(){
-    
+int main(){    
     MyClass obj1;
     obj1.getinput();
     obj1.display();
-
     return 0;
 }
