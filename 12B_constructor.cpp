@@ -5,7 +5,7 @@ class MyClass{
     public:
     string a;
 MyClass(){
-    cout<< "Enter your name: "<<endl;
+    cout<<"Enter your name: "<<endl;
     cin>>a;
     cout<<"Hello "<<a<< ", from Constructor!"<<endl;
 }
